@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-people = int(input("How many people will be going?\n")) # grab the number of people going 
+people = int(input("How many people will be going? ")) # grab the number of people going 
 car = people % 5 # get the remainder of people divided by the max amount of people in a car
 
 if car == 0: # check to see if people is divisible by 5
